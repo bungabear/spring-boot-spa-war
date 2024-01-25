@@ -1,4 +1,4 @@
-package com.example.helloworldwar
+package com.example.spawar
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.builder.SpringApplicationBuilder

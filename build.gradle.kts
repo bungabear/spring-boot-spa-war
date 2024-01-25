@@ -34,6 +34,11 @@ tasks.withType<KotlinCompile> {
     }
 }
 
+tasks.bootWar {
+    archiveFileName.set("spa-serve.war")
+}
+
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }

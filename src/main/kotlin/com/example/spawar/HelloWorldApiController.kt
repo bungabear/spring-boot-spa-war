@@ -1,14 +1,13 @@
-package com.example.helloworldwar
+package com.example.spawar
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @Controller
-@RestController("/")
-class HelloWorldController {
+class HelloWorldApiController {
 
-    @GetMapping("")
+    @GetMapping("/api")
     fun getRoot(): String {
         return "Hello"
     }
